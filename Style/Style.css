@@ -1,0 +1,58 @@
+body{
+    color: #575d5b;
+}
+
+a{
+    color: #575d5b;
+}
+
+button{
+    border: none;
+}
+
+button :active{
+    border:none;
+}
+
+button :focus{
+    border:none;
+}
+
+@media only screen and (max-width: 767px) {
+    #NavBar{
+        display:inline;
+        min-width: 474px;
+    }
+
+    #navToggler{
+        float: left;
+    }
+}
+
+
+/* ----------------------------*/
+
+
+.nav-link,
+.navbar-brand {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.navbar img {
+    height: 40px;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+    font-weight: bold;
+}
+
+    .nav-link:hover {
+        color: #000;
+    }
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
