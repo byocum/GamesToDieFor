@@ -68,10 +68,6 @@ a {
     }
 
 /* Cards */
-/* If all images are the same ratio, this can be changed */
-/*.card-img-top{
-    height:160px;
-}*/
 
 .card-size {
     min-width: 260px;
