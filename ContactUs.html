@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Games 2d4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="Style\Style.css">
+</head>
+
+<body>
+    <header>
+        <nav id=NavBar class="navbar navbar-expand-md">
+            <a href="Games2d4_HomePage.html">
+                <img class="navbar-brand" src="Pictures/games_2d4_logo.jpg" />
+            </a>
+            <button id="navToggler" class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+                data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://games2d4.crystalcommerce.com/">STORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="C:\Users\byocu\source\repos\GitHubRepos\G2D4Website\Games2d4_HomePage.html#News">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="C:\Users\byocu\source\repos\GitHubRepos\G2D4Website\Games2d4_HomePage.html#Events">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="https://www.facebook.com/games2d4/">
+                <img alt="Facebook" src="Pictures/facebookIcon.png">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col">
+                <form method="post" name="frmContactUs" action="SubmitContactForm.php">
+                    <label for="name" class="block">Name:</label>
+                    <input type="text" id="name" name="Name" class="block" placeholder="Your name">
+
+                    <label for="email" class="block">Email:</label>
+                    <input type="text" id="email" name="Email" class="block" placeholder="Email">
+
+                    <label for="topic" class="block">Topic:</label>
+                    <select id="topic" placeholder="Select a topic">
+                        <option value="Events">Events</option>
+                        <option value="Products">Products</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="message" class="block">Message:</label>
+                    <textarea id="message" name="Message" placeholder="Type your message here"></textarea>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                </form>
+
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="page-footer font-small" style="background-color: #ececec;">
+
+        <div class="container footer-links">
+
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="https://games2d4.crystalcommerce.com/">STORE</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a
+                            href="C:\Users\byocu\source\repos\GitHubRepos\G2D4Website\Games2d4_HomePage.html#News">NEWS</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a
+                            href="C:\Users\byocu\source\repos\GitHubRepos\G2D4Website\Games2d4_HomePage.html#Events">EVENTS</a>
+                    </h6>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">CONTACT US</a>
+                    </h6>
+                </div>
+            </div>
+
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+
+                <div class="col-md-8 col-12 mt-5">
+                    <h3 id="footer-follow-us" style="margin:0 auto; display:block;">FOLLOW US ON</h3>
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="https://www.facebook.com/games2d4/">
+                            <img alt="Facebook" src="Pictures/facebookIcon.png">
+                        </a>
+                    </h6>
+                </div>
+            </div>
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+            <div class="row pb-3">
+                <div class="col-md-12">
+                    <div class="mb-5 flex-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3" style="background-color:#c6c6c6;">
+            Content © 2020 Games 2d4, llc. All rights reserved.<br />
+            Trademarks and product names are the property of their respective owners,
+            no claim is made nor should be implied.
+        </div>
+    </footer>

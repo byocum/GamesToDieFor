@@ -6,6 +6,10 @@ a {
     color: #575d5b;
 }
 
+.block{
+    display:block;
+}
+
 /* Navigation Menu */
 .nav-link,
 .navbar-brand {
